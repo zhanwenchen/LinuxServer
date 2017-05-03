@@ -1,6 +1,15 @@
-1. SSH Public KEY
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCwrtbJIzudj/JL+QimXjGk7rmRW7KTcihbMENljF/tB1Hq8HDqMj5Q8CIIYxcf6dtfQD2fM6sZmjJ8GBsLPXcWdrqdC0yGXENbUnT1aJxbt+wsldDQfF6Lbmqmt1izP8pBJGkeofYM1ksndbhtM4bFspAOmyvpYh9wpqGpdVEprd52LD3Bb5TPkh9U8g9xtyNsBgOG8of25dgkMfOjFlvxW6JuboQZPZ7qmSnTk36KxUdqXDUvCM3PiAGA4f/vqSiUXIxkEJzHn4oxweY6IRB3Y7quwFoOVW/IAGITTEDq6HIslQKRI4d5UaFyV01IYz5R6S9hy3AFuLhNaVIAo59 philz@LAPTOP-3GI93K30
+1. ###The IP address and SSH port
 
-1. grader - 'grader'
+  52.2.187.40:2200
 
-1. ```psql items catalog``` password: 'catalog'
+1. ###The complete URL to your hosted web application
+
+  52.2.187.40
+
+1. ###A summary of software you installed and configuration changes made.
+
+  I used WSGI on Apache as the server with a custom entry point (/var/www/ItemCatalog/wsgi.py). I also used virtualenv to streamline project dependencies.
+
+1. ###A list of any third-party resources you made use of to complete this project
+
+  [How to delete ufw entries](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands). [How to solve import errors while trying to deploy Flask using WSGI on Apache2](http://stackoverflow.com/questions/3696606/how-to-solve-import-errors-while-trying-to-deploy-flask-using-wsgi-on-apache2)
